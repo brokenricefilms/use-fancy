@@ -16,12 +16,12 @@ export default defineConfig({
   }), tailwind(), compress(), robotsTxt()],
   markdown: {
     rehypePlugins: [[addClasses, {
-      h1: 'text-4xl font-bold font-mplus',
-      h2: 'text-2xl font-bold font-mplus',
-      h3: 'text-xl font-bold font-mplus',
-      h4: 'text-lg font-bold font-mplus',
-      h5: 'font-bold font-mplus',
-      h6: 'font-bold font-mplus',
+      h1: 'text-4xl font-bold',
+      h2: 'text-2xl font-bold',
+      h3: 'text-xl font-bold',
+      h4: 'text-lg font-bold',
+      h5: 'font-bold',
+      h6: 'font-bold',
       img: 'border border-slate-300 dark:border-zinc-700 rounded-xl mb-6',
       p: 'mb-6',
       a: 'underline underline-offset-2 hover:text-green-300 decoration-green-500',

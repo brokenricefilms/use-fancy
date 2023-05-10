@@ -1,6 +1,7 @@
 ---
 import ThemeToggle from './ThemeToggleButton'
 import DropdownMenu from './DropdownMenu'
+import '@fontsource/jetbrains-mono'
 
 const allPosts = await Astro.glob('../pages/posts/*.md')
 const allTags = new Set<string>()
@@ -14,7 +15,7 @@ allPosts.map(post => {
   <div class="mx-auto max-w-3xl">
     <nav class="flex items-center gap-3 text-base">
       <a href="/" class="group">
-        <h2 class="font-semibold p-2 font-mplus text-lg">Thuan Pham</h2>
+        <h2 class="font-semibold p-2 font-mplus text-lg">I use.</h2>
       </a>
       <div class="items-center gap-6 hidden md:flex"></div>
       <div class="flex-1"></div>
@@ -23,3 +24,9 @@ allPosts.map(post => {
     </nav>
   </div>
 </header>
+
+<style>
+  h2 {
+    font-family: 'JetBrains Mono', monospace;
+  }
+</style>
