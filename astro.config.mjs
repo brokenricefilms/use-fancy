@@ -9,7 +9,7 @@ import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://uses.craftz.dog/',
+  site: 'https://use.thuanowa.com/',
   integrations: [sitemap(), react(), image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), tailwind(), compress()],
