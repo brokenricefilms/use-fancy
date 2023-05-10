@@ -1,9 +1,7 @@
 # What i use?
 
-- Thanks to [@craftzdog](https://www.craftz.dog/)
+- use from template: https://github.com/craftzdog/craftzdog-uses
 
 <use.thuanowa.com>
 
 ## to do
-
-- [ ] optimize mast head img

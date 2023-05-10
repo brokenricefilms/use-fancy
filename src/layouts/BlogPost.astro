@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro'
 import Body from '../components/Body.astro'
 import Content from '../components/Content.astro'
 import { SITE_TITLE } from '../config'
+import { Image } from '@astrojs/image/components'
 
 export interface Props {
   content: {
@@ -39,12 +40,13 @@ const {
         <div class="mb-8">
           {
             heroImage && (
-              <img
+              <Image
                 class="border border-slate-300 dark:border-zinc-700 rounded-xl"
                 width={720}
                 height={360}
                 src={heroImage}
                 alt=""
+                format="avif"
               />
             )
           }

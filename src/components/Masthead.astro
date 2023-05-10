@@ -1,9 +1,16 @@
+---
+import { Image } from '@astrojs/image/components'
+---
+
 <section class="relative mb-6 h-80 flex justify-center items-center">
   <div class="absolute w-full h-full overflow-hidden">
-    <img
+    <Image
       class="absolute inset-0 min-w-full min-h-full object-cover opacity-30"
       src="../../desk.jpg"
       alt="my desk"
+      format="avif"
+      width={4000 / 10}
+      height={3000 / 10}
     />
   </div>
   <div class="z-10 text-center px-8 drop-shadow-lg">

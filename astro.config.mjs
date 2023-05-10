@@ -4,15 +4,16 @@ import react from '@astrojs/react';
 import image from '@astrojs/image';
 import tailwind from '@astrojs/tailwind';
 import addClasses from 'rehype-add-classes';
-
 import compress from "astro-compress";
+
+import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://use.thuanowa.com/',
   integrations: [sitemap(), react(), image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), tailwind(), compress()],
+  }), tailwind(), compress(), robotsTxt()],
   markdown: {
     rehypePlugins: [[addClasses, {
       h1: 'text-4xl font-bold font-mplus',
