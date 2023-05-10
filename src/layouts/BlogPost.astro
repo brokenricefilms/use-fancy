@@ -6,6 +6,7 @@ import Body from '../components/Body.astro'
 import Content from '../components/Content.astro'
 import { SITE_TITLE } from '../config'
 import { Image } from '@astrojs/image/components'
+import '@fontsource/jetbrains-mono'
 
 export interface Props {
   content: {
@@ -62,4 +63,9 @@ const {
     </main>
     <Footer />
   </Body>
+  <style>
+    body {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
 </html>
