@@ -9,7 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "live-import": "node --experimental-vm-modules tools/import.mjs"
+    "live-import": "node --experimental-vm-modules tools/import.mjs",
+    "format": "prettier -w --plugin-search-dir=. --cache .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@astrojs/image": "^0.16.1",
@@ -36,6 +38,7 @@
     "dotenv": "^16.0.3",
     "eslint": "^8.36.0",
     "eslint-plugin-astro": "^0.26.1",
+    "husky": "^8.0.3",
     "rehype-add-classes": "^1.0.0"
   }
 }

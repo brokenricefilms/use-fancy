@@ -15,9 +15,7 @@ export default function DropdownMenu({ tags }: Props) {
           className="inline-flex justify-center rounded-md border border-zinc-400 dark:border-zinc-700 px-2 py-2 text-sm font-medium shadow-sm hover:bg-white dark:hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100 transition-all"
           aria-label="menu"
         >
-          <div className="font-bold">
-            Categories
-          </div>
+          <div className="font-bold">Categories</div>
           <IoMenu className="h-5 w-5" />
         </Menu.Button>
       </div>
