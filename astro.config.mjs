@@ -10,7 +10,8 @@ import robotsTxt from 'astro-robots-txt'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://use.thuanowa.com/',
+  site: 'https://thuanowa.github.io/',
+  base: '/use'
   integrations: [
     sitemap(),
     react(),
