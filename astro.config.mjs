@@ -4,7 +4,6 @@ import react from '@astrojs/react'
 import image from '@astrojs/image'
 import tailwind from '@astrojs/tailwind'
 import addClasses from 'rehype-add-classes'
-import compress from 'astro-compress'
 
 import robotsTxt from 'astro-robots-txt'
 
@@ -19,7 +18,6 @@ export default defineConfig({
       serviceEntryPoint: '@astrojs/image/sharp'
     }),
     tailwind(),
-    compress(),
     robotsTxt()
   ],
   markdown: {
