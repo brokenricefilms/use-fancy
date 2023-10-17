@@ -9,7 +9,7 @@ import robotsTxt from 'astro-robots-txt'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://thuanowa.github.io/',
+  site: 'https://ongedit.github.io/',
   base: '/use',
   integrations: [
     sitemap(),

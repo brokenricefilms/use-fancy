@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'What I use - Thuan Pham'
 export const SITE_DESCRIPTION = 'A curated list of What I use'
-export const HOMEPAGE_URL = 'https://www.thuanowa.com/'
+export const HOMEPAGE_URL = 'https://ongedit.github.io/use'
